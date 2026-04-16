@@ -1,13 +1,13 @@
 modLoader = "javafml"
-loaderVersion = "*"
-issueTrackerURL = "https://github.com/meza/Stonecraft/issues"
-license = "GPL-3.0"
+loaderVersion = "[1,)"
+issueTrackerURL = "https://github.com/ModernGamingWorlds-Mods/Monumental-Recipes/issues"
+license = "MIT"
 
 [[mods]]
 modId = "${id}"
 version = "${version}"
 displayName = "${name}"
-authors = "Meza"
+authors = "ModernGamingWorld"
 description = '''
 ${description}
 '''
@@ -16,7 +16,14 @@ logoBlur = false
 
 [[dependencies.${id}]]
 modId = "minecraft"
-mandatory = true
+type = "required"
 versionRange = "[${minecraftVersion},)"
 ordering = "NONE"
-side = "CLIENT"
+side = "BOTH"
+
+[[dependencies.${id}]]
+modId = "neoforge"
+type = "required"
+versionRange = ">=${neoforgeVersion}"
+ordering = "NONE"
+side = "BOTH"
