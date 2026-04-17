@@ -77,6 +77,11 @@ tasks.processResources {
         exclude("**/data/*/loot table/**")
     }
 
+    // Exclude Farming For Blockheads market support from 1.19.2 and below
+    if (stonecutter.eval(minecraft, "<1.20")) {
+        exclude("**/data/farmingforblockheads/farmingforblockheads_compat/**")
+    }
+
     // Exclude Create worldgen from 1.19.2 and below
     if (stonecutter.eval(minecraft, "<1.20")) {
         exclude("**/data/create/worldgen/**")

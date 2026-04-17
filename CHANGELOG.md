@@ -9,3 +9,6 @@
 - Fixed broken Quadrocopter blueprint recipe
 - Excluded 1.20.1 loot tables from 1.21.1 Neoforge
 - Added Neoforge recipes pt 1
+
+## Version 1.0.5
+- Excluded Farming for Blockheads market 1.20.1 support from 1.19.2

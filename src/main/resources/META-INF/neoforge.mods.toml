@@ -4,9 +4,9 @@ issueTrackerURL = "https://github.com/ModernGamingWorlds-Mods/Monumental-Recipes
 license = "MIT"
 
 [[mods]]
-modId = "${id}"
-version = "${version}"
-displayName = "${name}"
+modId = "monumental_recipes"
+version = "1.0.5"
+displayName = "Monumental Recipes"
 authors = "ModernGamingWorld"
 description = '''
 ${description}
