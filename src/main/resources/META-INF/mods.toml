@@ -1,29 +1,29 @@
 modLoader = "javafml"
-loaderVersion = "[40,)"
+loaderVersion = "[47,)"
 issueTrackerURL = "https://github.com/ModernGamingWorlds-Mods/Monumental-Recipes/issues"
 license = "MIT"
 
 [[mods]]
-modId = "${id}"
-version = "${version}"
-displayName = "${name}"
+modId = "monumental_recipes"
+version = "1.0.2"
+displayName = "Monumental Recipes"
 authors = "ModernGamingWorld"
 description = '''
-${description}
+Centralized custom recipes for the Monumental Experience modpack series.
 '''
-logoFile = "assets/${id}/icon.png"
+logoFile = "assets/monumental_recipes/icon.png"
 logoBlur = false
 
-[[dependencies.${id}]]
-modId = "minecraft"
+[[dependencies.monumental_recipes]]
+modId = "forge"
 mandatory = true
-versionRange = "[${minecraftVersion},)"
+versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.${id}]]
-modId = "forge"
+[[dependencies.monumental_recipes]]
+modId = "minecraft"
 mandatory = true
-versionRange = ">=${forgeVersion}"
+versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
