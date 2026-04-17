@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "mekanismgenerators:bio_generator"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
 }

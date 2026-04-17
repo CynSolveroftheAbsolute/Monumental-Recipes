@@ -29,5 +29,11 @@
   },
   "result": {
     "item": "rebornstorage:multiblock_storage"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rebornstorage"
+    }
+  ]
 }

@@ -17,5 +17,11 @@
       "item": "refinedstorage:quartz_enriched_iron",
       "count": 2
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
   ]
 }

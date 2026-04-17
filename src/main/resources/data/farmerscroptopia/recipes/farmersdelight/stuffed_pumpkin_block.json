@@ -29,5 +29,11 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:stuffed_pumpkin_block"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "mekanism:advanced_energy_cube"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

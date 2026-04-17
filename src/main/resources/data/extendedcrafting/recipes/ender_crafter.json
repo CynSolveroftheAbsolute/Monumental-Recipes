@@ -4,6 +4,10 @@
     {
       "type": "cucumber:feature_flag",
       "flag": "extendedcrafting:ender_crafter"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
     }
   ],
   "pattern": [

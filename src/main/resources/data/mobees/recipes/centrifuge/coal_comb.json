@@ -24,5 +24,11 @@
       "count": 1
     }
   ],
-  "time": 20
+  "time": 20,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobees"
+    }
+  ]
 }

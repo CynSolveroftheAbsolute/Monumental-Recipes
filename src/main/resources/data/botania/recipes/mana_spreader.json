@@ -25,5 +25,11 @@
   "result": {
     "count": 1,
     "item": "botania:mana_spreader"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
 }

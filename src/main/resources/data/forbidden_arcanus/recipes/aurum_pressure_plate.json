@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "forbidden_arcanus:aurum_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
 }

@@ -25,5 +25,11 @@
   },
   "result": {
     "item": "thermal:potion_cake"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

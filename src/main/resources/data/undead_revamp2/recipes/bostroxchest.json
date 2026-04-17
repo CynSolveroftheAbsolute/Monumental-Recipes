@@ -4,12 +4,18 @@
     "item": "minecraft:netherite_chestplate"
   },
   "addition": {
-      "item": "undead_revamp2:bostroxingot"
+    "item": "undead_revamp2:bostroxingot"
   },
   "result": {
     "item": "undead_revamp2:bostroxset_chestplate"
   },
   "template": {
-      "tag": "forge:plates/netherite"
-  }
+    "tag": "forge:plates/netherite"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

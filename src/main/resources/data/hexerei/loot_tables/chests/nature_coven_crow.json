@@ -200,7 +200,6 @@
           "name": "mysticalagriculture:chicken_essence",
           "weight": 40
         },
-
         {
           "type": "minecraft:item",
           "name": "minecraft:white_dye",
@@ -284,5 +283,11 @@
       }
     }
   ],
-  "random_sequence": "hexerei:chests/nature_coven_1"
+  "random_sequence": "hexerei:chests/nature_coven_1",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    }
+  ]
 }

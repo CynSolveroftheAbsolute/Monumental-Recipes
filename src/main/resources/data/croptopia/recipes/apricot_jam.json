@@ -14,5 +14,11 @@
   ],
   "result": {
     "item": "croptopia:apricot_jam"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

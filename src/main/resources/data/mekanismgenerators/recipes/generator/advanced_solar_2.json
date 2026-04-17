@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "mekanismgenerators:advanced_solar_generator"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanismgenerators"
+    }
+  ]
 }

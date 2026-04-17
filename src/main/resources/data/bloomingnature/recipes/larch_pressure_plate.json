@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "bloomingnature:larch_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloomingnature"
+    }
+  ]
 }

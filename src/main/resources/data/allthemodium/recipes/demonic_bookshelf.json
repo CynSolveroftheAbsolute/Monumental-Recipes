@@ -18,5 +18,11 @@
   "result": {
     "item": "allthemodium:demonic_bookshelf"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

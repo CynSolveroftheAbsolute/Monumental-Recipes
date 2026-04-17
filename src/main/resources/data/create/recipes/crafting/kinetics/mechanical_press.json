@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "create:mechanical_press"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

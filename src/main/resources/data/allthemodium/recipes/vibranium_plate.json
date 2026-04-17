@@ -16,5 +16,11 @@
   "result": {
     "count": 1,
     "item": "allthemodium:vibranium_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

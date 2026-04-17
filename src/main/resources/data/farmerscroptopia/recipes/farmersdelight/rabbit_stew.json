@@ -28,5 +28,11 @@
   "category": "meals",
   "result": {
     "item": "minecraft:rabbit_stew"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

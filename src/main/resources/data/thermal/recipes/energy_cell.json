@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "thermal:energy_cell"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

@@ -23,5 +23,11 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:baked_cod_stew"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

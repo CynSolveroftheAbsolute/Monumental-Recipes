@@ -25,5 +25,11 @@
     {
       "item": "extendedcrafting:enhanced_ender_catalyst"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
   ]
 }

@@ -82,5 +82,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/theswarmer"
+  "random_sequence": "undead_revamp2:entities/theswarmer",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

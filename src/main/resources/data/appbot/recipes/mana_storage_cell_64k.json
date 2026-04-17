@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "appbot:mana_storage_cell_64k"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appbot"
+    }
+  ]
 }

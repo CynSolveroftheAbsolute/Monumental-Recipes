@@ -20,5 +20,11 @@
   "result": {
     "item": "croptopia:caesar_salad",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

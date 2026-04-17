@@ -273,5 +273,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/hedge_maze"
+  "random_sequence": "twilightforest:chests/hedge_maze",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

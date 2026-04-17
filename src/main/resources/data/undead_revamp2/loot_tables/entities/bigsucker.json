@@ -40,5 +40,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/bigsucker"
+  "random_sequence": "undead_revamp2:entities/bigsucker",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

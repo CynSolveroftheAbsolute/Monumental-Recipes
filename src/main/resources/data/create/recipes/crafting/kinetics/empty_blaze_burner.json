@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "create:empty_blaze_burner"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

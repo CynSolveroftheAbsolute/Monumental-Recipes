@@ -14,5 +14,11 @@
   "mode": "press",
   "result": {
     "item": "ae2:calculation_processor"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

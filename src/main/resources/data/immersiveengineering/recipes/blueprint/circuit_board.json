@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "immersiveengineering:circuit_board"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
 }

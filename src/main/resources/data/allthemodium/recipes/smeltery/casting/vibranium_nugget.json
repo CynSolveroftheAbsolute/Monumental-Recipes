@@ -8,5 +8,11 @@
     "amount": 25
   },
   "result": "allthemodium:vibranium_nugget",
-  "cooling_time": 59
+  "cooling_time": 59,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

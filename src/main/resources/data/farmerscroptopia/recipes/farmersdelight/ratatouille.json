@@ -23,5 +23,11 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:ratatouille"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

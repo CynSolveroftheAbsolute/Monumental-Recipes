@@ -16,5 +16,11 @@
   ],
   "result": {
     "item": "reliquary:void_tear"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
 }

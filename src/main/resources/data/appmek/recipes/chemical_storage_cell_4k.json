@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "appmek:chemical_storage_cell_4k"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appmek"
+    }
+  ]
 }

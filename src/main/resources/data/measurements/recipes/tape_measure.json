@@ -3,7 +3,8 @@
   "pattern": [
     " G ",
     "GIY",
-    " GY"  ],
+    " GY"
+  ],
   "key": {
     "I": [
       {
@@ -23,6 +24,11 @@
   },
   "result": {
     "item": "measurements:tape_measure"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "measurements"
+    }
+  ]
 }
-

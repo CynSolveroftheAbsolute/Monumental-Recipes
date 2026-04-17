@@ -206,5 +206,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/labyrinth_room"
+  "random_sequence": "twilightforest:chests/labyrinth_room",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

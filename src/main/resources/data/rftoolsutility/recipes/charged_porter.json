@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "rftoolsutility:charged_porter"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
 }

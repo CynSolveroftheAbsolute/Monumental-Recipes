@@ -16,5 +16,11 @@
   "result": {
     "item": "mekanism:basic_universal_cable",
     "count": 4
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

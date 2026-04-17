@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "fluxnetworks:flux_configurator"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fluxnetworks"
+    }
+  ]
 }

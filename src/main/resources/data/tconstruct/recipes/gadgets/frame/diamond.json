@@ -16,5 +16,11 @@
   ],
   "result": {
     "item": "tconstruct:diamond_item_frame"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
 }

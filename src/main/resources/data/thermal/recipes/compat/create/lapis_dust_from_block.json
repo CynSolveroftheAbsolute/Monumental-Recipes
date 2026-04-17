@@ -11,5 +11,11 @@
       "item": "thermal:lapis_dust",
       "count": 4
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
   ]
 }

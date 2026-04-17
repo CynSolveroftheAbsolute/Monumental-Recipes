@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "refinedstorage:constructor"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

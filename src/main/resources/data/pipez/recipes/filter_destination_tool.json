@@ -22,5 +22,11 @@
   "result": {
     "item": "pipez:filter_destination_tool",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pipez"
+    }
+  ]
 }

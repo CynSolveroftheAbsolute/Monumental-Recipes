@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "mekanism:precision_sawmill"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

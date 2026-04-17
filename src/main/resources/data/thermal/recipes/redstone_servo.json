@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "thermal:redstone_servo"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

@@ -18,5 +18,11 @@
   "result": {
     "count": 4,
     "item": "thermal:fluid_duct"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

@@ -17,8 +17,14 @@
   ],
   "results": [
     {
-    "item": "thermal:glowstone_mushroom_spores",
-    "count": 4
+      "item": "thermal:glowstone_mushroom_spores",
+      "count": 4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
     }
   ]
 }

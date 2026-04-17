@@ -7,8 +7,14 @@
   ],
   "results": [
     {
-      "item":  "allthemodium:allthemodium_nugget",
+      "item": "allthemodium:allthemodium_nugget",
       "count": 4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthecompatibility"
     }
   ]
 }

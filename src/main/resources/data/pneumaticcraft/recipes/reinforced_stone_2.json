@@ -14,5 +14,11 @@
       "count": 2
     }
   ],
-  "energy": 2500
+  "energy": 2500,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

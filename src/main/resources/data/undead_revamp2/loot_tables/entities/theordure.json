@@ -40,5 +40,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/theordure"
+  "random_sequence": "undead_revamp2:entities/theordure",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

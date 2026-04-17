@@ -23,5 +23,11 @@
   ],
   "result": {
     "item": "croptopia:pecan_pie"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

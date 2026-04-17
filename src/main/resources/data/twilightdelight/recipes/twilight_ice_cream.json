@@ -24,5 +24,11 @@
   "result": {
     "count": 3,
     "item": "twilightdelight:twilight_ice_cream"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightdelight"
+    }
+  ]
 }

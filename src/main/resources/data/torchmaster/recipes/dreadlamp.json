@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "torchmaster:dreadlamp"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "torchmaster"
+    }
+  ]
 }

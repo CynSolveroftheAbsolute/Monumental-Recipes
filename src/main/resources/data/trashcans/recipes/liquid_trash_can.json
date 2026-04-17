@@ -18,5 +18,11 @@
   },
   "result": {
     "item": "trashcans:liquid_trash_can"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "trashcans"
+    }
+  ]
 }

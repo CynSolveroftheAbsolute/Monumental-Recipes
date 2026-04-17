@@ -10,5 +10,11 @@
       "item": "allthemodium:vibranium_nugget",
       "count": 4
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthecompatibility"
+    }
   ]
 }

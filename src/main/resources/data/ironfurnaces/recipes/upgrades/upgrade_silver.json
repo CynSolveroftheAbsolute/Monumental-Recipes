@@ -20,5 +20,11 @@
   ],
   "result": {
     "item": "ironfurnaces:upgrade_silver"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
 }

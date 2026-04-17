@@ -16,5 +16,11 @@
   "minimumDrain": 500.0,
   "output": {
     "item": "bloodmagic:demoncrystallizer"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ]
 }

@@ -14,5 +14,11 @@
   },
   "pressure": 3.0,
   "speed": 0.5,
-  "exothermic": false
+  "exothermic": false,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compressedcreativity"
+    }
+  ]
 }

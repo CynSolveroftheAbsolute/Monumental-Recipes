@@ -17,5 +17,11 @@
   "result": {
     "item": "croptopia:food_press"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

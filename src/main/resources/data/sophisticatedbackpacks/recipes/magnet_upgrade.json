@@ -4,6 +4,10 @@
     {
       "type": "sophisticatedcore:item_enabled",
       "itemRegistryName": "sophisticatedbackpacks:magnet_upgrade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
     }
   ],
   "key": {

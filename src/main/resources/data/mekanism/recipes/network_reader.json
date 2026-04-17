@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "mekanism:network_reader"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

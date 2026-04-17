@@ -34,5 +34,11 @@
     {
       "item": "mysticalagriculture:prudentium_watering_can"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
   ]
 }

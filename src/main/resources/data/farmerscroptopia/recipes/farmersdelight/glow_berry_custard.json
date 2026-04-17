@@ -23,5 +23,11 @@
   "category": "misc",
   "result": {
     "item": "farmersdelight:glow_berry_custard"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

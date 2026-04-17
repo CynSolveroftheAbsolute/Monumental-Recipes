@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "rftoolsutility:crafter2"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
 }

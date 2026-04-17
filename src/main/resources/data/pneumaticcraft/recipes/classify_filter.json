@@ -11,5 +11,11 @@
   ],
   "result": {
     "item": "pneumaticcraft:classify_filter"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

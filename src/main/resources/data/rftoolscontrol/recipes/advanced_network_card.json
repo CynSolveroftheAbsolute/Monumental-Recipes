@@ -20,5 +20,11 @@
   ],
   "result": {
     "item": "rftoolscontrol:advanced_network_card"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolscontrol"
+    }
+  ]
 }

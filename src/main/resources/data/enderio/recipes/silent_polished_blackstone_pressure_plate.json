@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "enderio:silent_polished_blackstone_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enderio"
+    }
+  ]
 }

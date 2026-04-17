@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "create:electron_tube"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

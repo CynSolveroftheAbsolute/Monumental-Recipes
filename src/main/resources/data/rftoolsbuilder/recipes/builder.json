@@ -25,5 +25,11 @@
   "result": {
     "count": 1,
     "item": "rftoolsbuilder:builder"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsbuilder"
+    }
+  ]
 }

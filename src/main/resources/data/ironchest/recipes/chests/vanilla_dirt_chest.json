@@ -23,5 +23,11 @@
   ],
   "result": {
     "item": "ironchest:dirt_chest"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironchest"
+    }
+  ]
 }

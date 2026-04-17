@@ -315,5 +315,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/aurora_cache"
+  "random_sequence": "twilightforest:chests/aurora_cache",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

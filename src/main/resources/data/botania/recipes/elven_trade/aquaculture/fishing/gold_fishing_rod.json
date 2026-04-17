@@ -12,5 +12,11 @@
     {
       "item": "aquaculture:gold_fishing_rod"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
   ]
 }

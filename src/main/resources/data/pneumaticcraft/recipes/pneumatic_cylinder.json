@@ -21,5 +21,11 @@
     "count": 2,
     "item": "pneumaticcraft:pneumatic_cylinder"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

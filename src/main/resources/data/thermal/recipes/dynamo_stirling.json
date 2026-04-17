@@ -28,5 +28,11 @@
   "result": {
     "count": 1,
     "item": "thermal:dynamo_stirling"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

@@ -9,5 +9,11 @@
   "output": {
     "item": "bloodmagic:blankslate"
   },
-  "upgradeLevel": 0
+  "upgradeLevel": 0,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ]
 }

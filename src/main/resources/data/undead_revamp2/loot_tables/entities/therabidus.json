@@ -35,5 +35,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/therabidus"
+  "random_sequence": "undead_revamp2:entities/therabidus",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

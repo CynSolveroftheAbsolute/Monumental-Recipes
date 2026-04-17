@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "rftoolscontrol:programmer"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolscontrol"
+    }
+  ]
 }

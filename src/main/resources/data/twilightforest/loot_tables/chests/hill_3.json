@@ -234,5 +234,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/hill_3"
+  "random_sequence": "twilightforest:chests/hill_3",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

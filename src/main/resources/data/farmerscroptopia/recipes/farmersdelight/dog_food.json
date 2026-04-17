@@ -23,5 +23,11 @@
   "category": "misc",
   "result": {
     "item": "farmersdelight:dog_food"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

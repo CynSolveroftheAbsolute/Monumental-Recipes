@@ -1,7 +1,6 @@
 {
-  "type":"forcecraft:infuser",
-  "ingredient": 
-  {
+  "type": "forcecraft:infuser",
+  "ingredient": {
     "item": "minecraft:chorus_flower"
   },
   "center": {
@@ -10,8 +9,14 @@
   "tier": 2,
   "time": 30,
   "output": {
-    "item":"botania:mana_pearl",
+    "item": "botania:mana_pearl",
     "count": 2
   },
-  "result": "forcecraft:item"
+  "result": "forcecraft:item",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
 }

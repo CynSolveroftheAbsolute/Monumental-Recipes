@@ -21,5 +21,11 @@
   },
   "result": {
     "item": "easy_villagers:converter"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_villagers"
+    }
+  ]
 }

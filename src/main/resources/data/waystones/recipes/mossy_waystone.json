@@ -16,5 +16,11 @@
     {
       "item": "waystones:mossy_waystone"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
   ]
 }

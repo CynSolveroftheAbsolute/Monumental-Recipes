@@ -19,5 +19,11 @@
   "result": {
     "item": "mekanism:upgrade_energy",
     "count": 2
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

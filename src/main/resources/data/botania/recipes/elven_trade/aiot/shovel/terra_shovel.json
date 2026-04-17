@@ -12,5 +12,11 @@
     {
       "item": "aiotbotania:terra_shovel"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
   ]
 }

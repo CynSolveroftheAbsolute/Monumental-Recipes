@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "rftoolscontrol:craftingstation"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolscontrol"
+    }
+  ]
 }

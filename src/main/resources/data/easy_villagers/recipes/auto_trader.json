@@ -21,5 +21,11 @@
   },
   "result": {
     "item": "easy_villagers:auto_trader"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "easy_villagers"
+    }
+  ]
 }

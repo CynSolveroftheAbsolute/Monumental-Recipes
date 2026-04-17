@@ -5,9 +5,15 @@
     {
       "item": "mysticalagriculture:slime_essence"
     },
-         {
-           "item": "minecraft:panda_spawn_egg"
-         }
+    {
+      "item": "minecraft:panda_spawn_egg"
+    }
   ],
-  "summonedMob": "minecraft:panda"
+  "summonedMob": "minecraft:panda",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
 }

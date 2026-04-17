@@ -24,5 +24,11 @@
   },
   "result": {
     "item": "chipped:mason_table"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "twilightforest:mangrove_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "reliquary:serpent_staff"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
 }

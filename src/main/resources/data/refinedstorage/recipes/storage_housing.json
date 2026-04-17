@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "refinedstorage:storage_housing"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

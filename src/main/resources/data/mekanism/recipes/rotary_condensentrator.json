@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "mekanism:rotary_condensentrator"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

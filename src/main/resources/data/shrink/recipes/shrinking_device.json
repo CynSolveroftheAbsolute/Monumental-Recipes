@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "shrink:shrinking_device"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "shrink"
+    }
+  ]
 }

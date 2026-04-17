@@ -35,5 +35,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thespitter"
+  "random_sequence": "undead_revamp2:entities/thespitter",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

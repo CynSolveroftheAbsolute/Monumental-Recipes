@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "rebornstorage:medium_fluid_disk"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rebornstorage"
+    }
+  ]
 }

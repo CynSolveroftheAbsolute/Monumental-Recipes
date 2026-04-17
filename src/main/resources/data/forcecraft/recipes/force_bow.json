@@ -11,5 +11,11 @@
   },
   "template": {
     "tag": "forge:string"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
 }

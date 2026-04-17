@@ -15,5 +15,11 @@
   "result": {
     "item": "tconstruct:part_builder"
   },
-  "acceptMirrored": true
+  "acceptMirrored": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
 }

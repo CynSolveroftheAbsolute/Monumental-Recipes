@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "rftoolspower:dimensionalcell_simple"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolspower"
+    }
+  ]
 }

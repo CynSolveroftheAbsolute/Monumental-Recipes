@@ -22,5 +22,11 @@
     {
       "item": "extendedcrafting:crystaltine_component"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
   ]
 }

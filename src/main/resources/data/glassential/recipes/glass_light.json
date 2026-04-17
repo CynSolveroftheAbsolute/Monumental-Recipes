@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "glassential:glass_light"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "glassential"
+    }
+  ]
 }

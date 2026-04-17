@@ -20,5 +20,11 @@
   ],
   "result": {
     "item": "xnet:advanced_connector_routing"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
 }

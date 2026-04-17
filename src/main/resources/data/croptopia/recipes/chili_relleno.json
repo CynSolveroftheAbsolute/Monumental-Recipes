@@ -23,5 +23,11 @@
   "result": {
     "item": "croptopia:chili_relleno",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

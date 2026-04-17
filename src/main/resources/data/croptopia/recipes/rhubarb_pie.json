@@ -23,5 +23,11 @@
   ],
   "result": {
     "item": "croptopia:rhubarb_pie"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

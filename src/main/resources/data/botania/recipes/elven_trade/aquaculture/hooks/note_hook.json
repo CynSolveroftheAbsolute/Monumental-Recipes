@@ -12,5 +12,11 @@
     {
       "item": "aquaculture:note_hook"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
   ]
 }

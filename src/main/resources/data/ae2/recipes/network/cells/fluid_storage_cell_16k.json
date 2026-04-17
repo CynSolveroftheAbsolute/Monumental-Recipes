@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "ae2:fluid_storage_cell_16k"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

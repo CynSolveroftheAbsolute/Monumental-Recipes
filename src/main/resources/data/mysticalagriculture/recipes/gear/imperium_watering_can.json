@@ -34,5 +34,11 @@
     {
       "item": "mysticalagriculture:imperium_watering_can"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
   ]
 }

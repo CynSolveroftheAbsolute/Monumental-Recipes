@@ -14,5 +14,11 @@
   "mode": "inscribe",
   "result": {
     "item": "refinedstorage:advanced_processor"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

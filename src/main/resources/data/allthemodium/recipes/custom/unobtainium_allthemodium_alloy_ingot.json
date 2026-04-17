@@ -20,5 +20,11 @@
       "item": "compressium:soulsand_3"
     }
   ],
-  "sourceCost": 10000
+  "sourceCost": 10000,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

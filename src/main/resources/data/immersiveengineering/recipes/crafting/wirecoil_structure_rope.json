@@ -16,5 +16,11 @@
   "result": {
     "item": "immersiveengineering:wirecoil_structure_rope",
     "count": 2
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
 }

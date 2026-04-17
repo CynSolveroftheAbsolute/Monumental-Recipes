@@ -89,5 +89,11 @@
       "rolls": 2.0
     }
   ],
-  "random_sequence": "twilightforest:chests/troll_vault"
+  "random_sequence": "twilightforest:chests/troll_vault",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

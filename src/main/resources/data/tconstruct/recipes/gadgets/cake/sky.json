@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "tconstruct:sky_cake"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
 }

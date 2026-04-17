@@ -14,5 +14,11 @@
   ],
   "result": {
     "item": "croptopia:tomato_juice"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

@@ -533,5 +533,11 @@
       }
     }
   ],
-  "random_sequence": "dungeoncrawl:chests/supply"
+  "random_sequence": "dungeoncrawl:chests/supply",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dungeoncrawl"
+    }
+  ]
 }

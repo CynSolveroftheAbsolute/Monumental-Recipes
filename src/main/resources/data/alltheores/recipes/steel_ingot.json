@@ -8,5 +8,11 @@
     {
       "item": "alltheores:steel_ingot"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
   ]
 }

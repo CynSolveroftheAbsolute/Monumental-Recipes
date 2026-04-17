@@ -20,5 +20,11 @@
   "result": {
     "item": "croptopia_additions:frosted_churro",
     "count": 4
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia_additions"
+    }
+  ]
 }

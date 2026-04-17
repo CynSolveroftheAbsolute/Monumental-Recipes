@@ -18,5 +18,11 @@
   },
   "result": {
     "item": "botania:apothecary_swamp"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
 }

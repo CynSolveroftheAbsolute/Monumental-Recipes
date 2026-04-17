@@ -20,5 +20,11 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:pasta_with_mutton_chop"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

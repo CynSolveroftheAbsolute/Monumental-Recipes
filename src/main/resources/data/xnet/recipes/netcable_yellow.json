@@ -22,5 +22,11 @@
   "result": {
     "count": 16,
     "item": "xnet:netcable_yellow"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
 }

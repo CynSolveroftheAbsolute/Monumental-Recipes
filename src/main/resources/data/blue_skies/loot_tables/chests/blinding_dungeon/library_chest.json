@@ -63,5 +63,11 @@
       }
     }
   ],
-  "random_sequence": "blue_skies:chests/blinding_dungeon/library_chest"
+  "random_sequence": "blue_skies:chests/blinding_dungeon/library_chest",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
 }

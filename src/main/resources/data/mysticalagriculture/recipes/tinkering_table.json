@@ -15,5 +15,11 @@
   },
   "result": {
     "item": "mysticalagriculture:tinkering_table"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
 }

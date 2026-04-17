@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "create:andesite_alloy"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

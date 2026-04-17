@@ -12,5 +12,11 @@
     {
       "item": "blue_skies:dusk_spear"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
   ]
 }

@@ -11,5 +11,11 @@
   },
   "template": {
     "tag": "monumental_experience:eyes"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
 }

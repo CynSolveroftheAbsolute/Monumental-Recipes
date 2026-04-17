@@ -11,5 +11,11 @@
   },
   "template": {
     "item": "mekanism:upgrade_speed"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
 }

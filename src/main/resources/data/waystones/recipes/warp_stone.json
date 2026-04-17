@@ -16,5 +16,11 @@
     {
       "item": "waystones:warp_stone"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "waystones"
+    }
   ]
 }

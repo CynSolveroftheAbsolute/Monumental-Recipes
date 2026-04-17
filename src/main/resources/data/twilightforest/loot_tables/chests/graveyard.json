@@ -112,5 +112,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/graveyard"
+  "random_sequence": "twilightforest:chests/graveyard",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

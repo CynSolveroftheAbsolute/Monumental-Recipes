@@ -5,9 +5,15 @@
     {
       "item": "mysticalagriculture:nature_essence"
     },
-         {
-           "item": "minecraft:pig_spawn_egg"
-         }
+    {
+      "item": "minecraft:pig_spawn_egg"
+    }
   ],
-  "summonedMob": "minecraft:pig"
+  "summonedMob": "minecraft:pig",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
 }

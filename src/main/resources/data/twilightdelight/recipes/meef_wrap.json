@@ -17,5 +17,11 @@
   ],
   "result": {
     "item": "twilightdelight:meef_wrap"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightdelight"
+    }
+  ]
 }

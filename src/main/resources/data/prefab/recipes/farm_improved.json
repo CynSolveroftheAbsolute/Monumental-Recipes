@@ -27,5 +27,11 @@
   "result": {
     "item": "prefab:item_farm_improved",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
 }

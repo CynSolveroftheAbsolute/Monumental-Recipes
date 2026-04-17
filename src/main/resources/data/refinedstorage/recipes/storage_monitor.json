@@ -27,5 +27,11 @@
   ],
   "result": {
     "item": "refinedstorage:storage_monitor"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

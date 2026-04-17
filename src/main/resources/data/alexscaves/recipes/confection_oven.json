@@ -24,5 +24,11 @@
   },
   "result": {
     "item": "alexscaves:confection_oven"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ]
 }

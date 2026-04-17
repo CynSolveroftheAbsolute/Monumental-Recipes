@@ -21,5 +21,11 @@
     "count": 6,
     "item": "modularrouters:blank_module"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "modularrouters"
+    }
+  ]
 }

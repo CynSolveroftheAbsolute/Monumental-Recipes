@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "refinedstorage:16k_storage_part"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

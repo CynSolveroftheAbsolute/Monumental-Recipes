@@ -16,5 +16,11 @@
   "result": {
     "count": 1,
     "item": "alltheores:steel_gear"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

@@ -11,5 +11,11 @@
   ],
   "result": {
     "item": "forestry:kit_shovel"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forestry"
+    }
+  ]
 }

@@ -19,5 +19,11 @@
     {
       "item": "forbidden_arcanus:aquatic_dragon_scale"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
   ]
 }

@@ -25,5 +25,11 @@
     {
       "item": "extendedcrafting:crystaltine_catalyst"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
   ]
 }

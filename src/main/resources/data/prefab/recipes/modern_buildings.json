@@ -27,5 +27,11 @@
   "result": {
     "item": "prefab:item_modern_buildings",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "prefab"
+    }
+  ]
 }

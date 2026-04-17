@@ -19,5 +19,11 @@
   "result": {
     "count": 1,
     "item": "immersiveengineering:coil_lv"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
 }

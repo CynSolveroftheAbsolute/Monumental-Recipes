@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "tconstruct:ender_cake"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
 }

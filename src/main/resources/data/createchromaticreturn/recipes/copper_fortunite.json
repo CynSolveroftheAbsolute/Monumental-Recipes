@@ -62,5 +62,11 @@
       "item": "minecraft:copper_ingot"
     }
   ],
-  "heatRequirement": "superheated"
+  "heatRequirement": "superheated",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createchromaticreturn"
+    }
+  ]
 }

@@ -15,5 +15,11 @@
   },
   "result": {
     "item": "computercraft:wireless_modem_advanced"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ]
 }

@@ -16,5 +16,11 @@
   "minimumDrain": 400.0,
   "output": {
     "item": "bloodmagic:demoncrucible"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodmagic"
+    }
+  ]
 }

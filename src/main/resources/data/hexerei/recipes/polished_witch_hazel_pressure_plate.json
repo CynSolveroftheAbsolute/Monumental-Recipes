@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "hexerei:polished_witch_hazel_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "hexerei"
+    }
+  ]
 }

@@ -8,5 +8,11 @@
     "amount": 100
   },
   "result": "allthemodium:unobtainium_ingot",
-  "cooling_time": 104
+  "cooling_time": 104,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "allthemodium"
+    }
+  ]
 }

@@ -18,5 +18,11 @@
   },
   "result": {
     "item": "computercraft:turtle_advanced"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "computercraft"
+    }
+  ]
 }

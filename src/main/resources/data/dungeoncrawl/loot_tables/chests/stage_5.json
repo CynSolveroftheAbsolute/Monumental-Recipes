@@ -463,5 +463,11 @@
       }
     }
   ],
-  "random_sequence": "dungeoncrawl:chests/stage_5"
+  "random_sequence": "dungeoncrawl:chests/stage_5",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dungeoncrawl"
+    }
+  ]
 }

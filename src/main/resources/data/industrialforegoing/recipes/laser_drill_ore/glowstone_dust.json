@@ -21,5 +21,11 @@
   "catalyst": {
     "item": "industrialforegoing:laser_lens13"
   },
-  "type": "industrialforegoing:laser_drill_ore"
+  "type": "industrialforegoing:laser_drill_ore",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ]
 }

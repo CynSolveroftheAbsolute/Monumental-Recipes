@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "industrialforegoing:machine_frame_pity"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ]
 }

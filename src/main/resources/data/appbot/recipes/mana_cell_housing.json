@@ -19,5 +19,11 @@
   "result": {
     "count": 1,
     "item": "appbot:mana_cell_housing"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appbot"
+    }
+  ]
 }

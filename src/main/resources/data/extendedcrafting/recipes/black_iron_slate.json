@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "extendedcrafting:black_iron_slate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
 }

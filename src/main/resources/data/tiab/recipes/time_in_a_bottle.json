@@ -27,5 +27,11 @@
   },
   "result": {
     "item": "tiab:time_in_a_bottle"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tiab"
+    }
+  ]
 }

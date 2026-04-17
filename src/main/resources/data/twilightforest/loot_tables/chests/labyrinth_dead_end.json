@@ -244,5 +244,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/labyrinth_dead_end"
+  "random_sequence": "twilightforest:chests/labyrinth_dead_end",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

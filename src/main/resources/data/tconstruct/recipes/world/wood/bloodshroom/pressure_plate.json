@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "tconstruct:bloodshroom_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
 }

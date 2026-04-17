@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "forbidden_arcanus:soul_extractor"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
+  ]
 }

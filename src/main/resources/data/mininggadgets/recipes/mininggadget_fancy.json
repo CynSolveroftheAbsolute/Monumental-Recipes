@@ -25,5 +25,11 @@
   "result": {
     "count": 1,
     "item": "mininggadgets:mininggadget_fancy"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mininggadgets"
+    }
+  ]
 }

@@ -15,5 +15,11 @@
   },
   "result": {
     "item": "strainers:iron_mesh"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
 }

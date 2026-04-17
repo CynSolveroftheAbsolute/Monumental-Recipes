@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "reliquary:lantern_of_paranoia"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
 }

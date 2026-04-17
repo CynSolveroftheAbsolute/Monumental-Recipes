@@ -144,5 +144,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/troll_garden"
+  "random_sequence": "twilightforest:chests/troll_garden",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

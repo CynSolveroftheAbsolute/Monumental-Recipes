@@ -11,5 +11,11 @@
   "result": {
     "count": 7,
     "item": "minecraft:iron_ingot"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ]
 }

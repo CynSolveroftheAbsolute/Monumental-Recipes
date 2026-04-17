@@ -54,5 +54,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thebeartamer"
+  "random_sequence": "undead_revamp2:entities/thebeartamer",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

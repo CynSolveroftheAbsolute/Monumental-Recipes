@@ -19,5 +19,11 @@
   "result": {
     "count": 1,
     "item": "appmek:chemical_cell_housing"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "appmek"
+    }
+  ]
 }

@@ -20,6 +20,10 @@
     {
       "type": "quark:flag",
       "flag": "minecart_upgrade"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "quark"
     }
   ]
 }

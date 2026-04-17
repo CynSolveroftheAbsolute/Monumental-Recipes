@@ -23,5 +23,11 @@
   "result": {
     "item": "rftoolsutility:peaceful_module"
   },
-  "syringe": 1
+  "syringe": 1,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
 }

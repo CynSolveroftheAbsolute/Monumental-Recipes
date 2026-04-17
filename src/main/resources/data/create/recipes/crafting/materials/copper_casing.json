@@ -19,5 +19,11 @@
   "result": {
     "item": "create:copper_casing",
     "count": 4
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

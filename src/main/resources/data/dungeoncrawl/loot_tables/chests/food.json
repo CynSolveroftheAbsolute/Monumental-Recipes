@@ -432,5 +432,11 @@
       }
     }
   ],
-  "random_sequence": "dungeoncrawl:chests/food"
+  "random_sequence": "dungeoncrawl:chests/food",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "dungeoncrawl"
+    }
+  ]
 }

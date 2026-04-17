@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "biomeswevegone:ironwood_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomeswevegone"
+    }
+  ]
 }

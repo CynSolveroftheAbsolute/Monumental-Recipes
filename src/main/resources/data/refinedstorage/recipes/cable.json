@@ -19,5 +19,11 @@
   "result": {
     "item": "refinedstorage:cable",
     "count": 6
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

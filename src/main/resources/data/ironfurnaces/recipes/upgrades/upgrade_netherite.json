@@ -23,5 +23,11 @@
   ],
   "result": {
     "item": "ironfurnaces:upgrade_netherite"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
 }

@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "tradingpost:trading_post"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tradingpost"
+    }
+  ]
 }

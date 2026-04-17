@@ -22,5 +22,11 @@
     {
       "item": "refinedstorage:processor_binding"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
   ]
 }

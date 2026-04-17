@@ -11,5 +11,11 @@
   },
   "template": {
     "item": "cyclic:shape_data"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "notenoughwands"
+    }
+  ]
 }

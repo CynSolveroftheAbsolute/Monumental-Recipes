@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "ae2:fluid_storage_cell_1k"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

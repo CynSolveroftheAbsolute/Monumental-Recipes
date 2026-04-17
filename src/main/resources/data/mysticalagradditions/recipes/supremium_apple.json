@@ -22,5 +22,11 @@
     {
       "item": "mysticalagradditions:supremium_apple"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagradditions"
+    }
   ]
 }

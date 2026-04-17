@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "ae2:spatial_cell_component_2"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

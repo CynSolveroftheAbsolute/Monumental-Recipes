@@ -14,5 +14,11 @@
   "mode": "press",
   "result": {
     "item": "alltheores:aluminum_gear"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

@@ -20,5 +20,11 @@
   "result": {
     "item": "ae2:wireless_receiver"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

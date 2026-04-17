@@ -4,6 +4,10 @@
     {
       "type": "enigmaticlegacy:is_enabled",
       "item": "enigmaticlegacy:forbidden_axe"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
     }
   ],
   "pattern": [

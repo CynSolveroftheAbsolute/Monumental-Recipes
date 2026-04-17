@@ -31,5 +31,11 @@
     "count": 2,
     "item": "create:andesite_alloy"
   },
-  "processingTime": 300
+  "processingTime": 300,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

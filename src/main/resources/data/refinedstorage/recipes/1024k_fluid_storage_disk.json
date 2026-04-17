@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "refinedstorage:1024k_fluid_storage_disk"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
 }

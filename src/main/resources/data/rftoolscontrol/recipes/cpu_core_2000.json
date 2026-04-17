@@ -18,5 +18,11 @@
   },
   "result": {
     "item": "rftoolscontrol:cpu_core_2000"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolscontrol"
+    }
+  ]
 }

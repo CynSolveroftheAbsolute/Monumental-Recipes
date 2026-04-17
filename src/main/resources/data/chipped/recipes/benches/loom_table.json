@@ -21,5 +21,11 @@
   },
   "result": {
     "item": "chipped:loom_table"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
 }

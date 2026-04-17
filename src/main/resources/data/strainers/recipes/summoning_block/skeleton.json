@@ -5,9 +5,15 @@
     {
       "item": "mysticalagriculture:skeleton_essence"
     },
-         {
-           "item": "minecraft:skeleton_spawn_egg"
-         }
+    {
+      "item": "minecraft:skeleton_spawn_egg"
+    }
   ],
-  "summonedMob": "minecraft:skeleton"
+  "summonedMob": "minecraft:skeleton",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
 }

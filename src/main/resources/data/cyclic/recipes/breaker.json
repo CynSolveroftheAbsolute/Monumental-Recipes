@@ -18,11 +18,17 @@
     "s": {
       "item": "minecraft:dispenser"
     },
-    "r": { 
+    "r": {
       "item": "minecraft:tripwire_hook"
     }
   },
   "result": {
     "item": "cyclic:breaker"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cyclic"
+    }
+  ]
 }

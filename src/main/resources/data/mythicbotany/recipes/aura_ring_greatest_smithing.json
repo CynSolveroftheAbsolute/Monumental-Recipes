@@ -11,5 +11,11 @@
   },
   "template": {
     "item": "ars_nouveau:ring_of_potential"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mythicbotany"
+    }
+  ]
 }

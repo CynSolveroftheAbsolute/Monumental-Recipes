@@ -23,5 +23,11 @@
   ],
   "result": {
     "item": "reliquary:ice_magus_rod"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
 }

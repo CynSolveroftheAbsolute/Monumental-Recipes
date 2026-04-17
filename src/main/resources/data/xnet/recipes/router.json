@@ -27,5 +27,11 @@
   },
   "result": {
     "item": "xnet:router"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
 }

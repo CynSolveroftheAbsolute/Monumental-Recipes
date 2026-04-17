@@ -371,5 +371,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/tower_library"
+  "random_sequence": "twilightforest:chests/tower_library",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

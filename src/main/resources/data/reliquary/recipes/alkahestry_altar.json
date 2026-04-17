@@ -16,5 +16,11 @@
   ],
   "result": {
     "item": "reliquary:alkahestry_altar"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
 }

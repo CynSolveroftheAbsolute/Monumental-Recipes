@@ -21,5 +21,11 @@
   "result": {
     "item": "woot_revived:gold_pylon"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "woot_revived"
+    }
+  ]
 }

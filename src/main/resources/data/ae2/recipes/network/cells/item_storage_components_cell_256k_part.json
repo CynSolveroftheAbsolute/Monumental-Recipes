@@ -25,5 +25,11 @@
   "result": {
     "count": 1,
     "item": "ae2:cell_component_256k"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "rftoolsutility:module_template"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolsutility"
+    }
+  ]
 }

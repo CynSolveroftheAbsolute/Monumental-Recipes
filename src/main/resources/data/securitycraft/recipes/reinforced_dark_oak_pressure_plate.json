@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "securitycraft:reinforced_dark_oak_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "securitycraft"
+    }
+  ]
 }

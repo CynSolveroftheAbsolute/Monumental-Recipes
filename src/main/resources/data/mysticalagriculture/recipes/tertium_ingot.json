@@ -16,5 +16,11 @@
     {
       "item": "mysticalagriculture:tertium_ingot"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
   ]
 }

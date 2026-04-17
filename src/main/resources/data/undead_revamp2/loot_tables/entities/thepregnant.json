@@ -59,5 +59,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thepregnant"
+  "random_sequence": "undead_revamp2:entities/thepregnant",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

@@ -11,5 +11,11 @@
   },
   "result": {
     "item": "undead_revamp2:cloggerarmor_helmet"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

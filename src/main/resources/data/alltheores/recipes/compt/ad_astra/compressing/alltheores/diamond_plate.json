@@ -8,5 +8,11 @@
   "result": {
     "count": 1,
     "id": "alltheores:diamond_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alltheores"
+    }
+  ]
 }

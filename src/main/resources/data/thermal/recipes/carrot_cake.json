@@ -26,5 +26,11 @@
   "result": {
     "item": "thermal:carrot_cake"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

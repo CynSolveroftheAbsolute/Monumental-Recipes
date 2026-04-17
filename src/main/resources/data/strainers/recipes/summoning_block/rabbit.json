@@ -5,9 +5,15 @@
     {
       "item": "mysticalagriculture:nature_essence"
     },
-         {
-           "item": "minecraft:rabbit_spawn_egg"
-         }
+    {
+      "item": "minecraft:rabbit_spawn_egg"
+    }
   ],
-  "summonedMob": "minecraft:rabbit"
+  "summonedMob": "minecraft:rabbit",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
 }

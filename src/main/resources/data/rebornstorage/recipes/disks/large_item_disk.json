@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "rebornstorage:large_item_disk"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rebornstorage"
+    }
+  ]
 }

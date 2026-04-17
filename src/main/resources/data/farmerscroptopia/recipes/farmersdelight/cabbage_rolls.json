@@ -14,5 +14,11 @@
   "category": "misc",
   "result": {
     "item": "farmersdelight:cabbage_rolls"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

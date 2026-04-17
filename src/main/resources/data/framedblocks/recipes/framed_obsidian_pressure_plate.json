@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "framedblocks:framed_obsidian_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "framedblocks"
+    }
+  ]
 }

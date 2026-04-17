@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "ae2:crank"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

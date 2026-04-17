@@ -49,5 +49,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thespectre"
+  "random_sequence": "undead_revamp2:entities/thespectre",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

@@ -19,5 +19,11 @@
   "result": {
     "count": 1,
     "item": "ironfurnaces:emerald_furnace"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ironfurnaces"
+    }
+  ]
 }

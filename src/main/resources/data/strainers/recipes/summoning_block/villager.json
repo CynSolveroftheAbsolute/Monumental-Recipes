@@ -5,9 +5,15 @@
     {
       "item": "mysticalagriculture:emerald_essence"
     },
-         {
-           "item": "minecraft:villager_spawn_egg"
-         }
+    {
+      "item": "minecraft:villager_spawn_egg"
+    }
   ],
-  "summonedMob": "minecraft:villager"
+  "summonedMob": "minecraft:villager",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "strainers"
+    }
+  ]
 }

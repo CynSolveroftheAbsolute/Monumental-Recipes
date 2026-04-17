@@ -23,5 +23,11 @@
   "result": {
     "item": "compactmachines:personal_shrinking_device"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compactmachines"
+    }
+  ]
 }

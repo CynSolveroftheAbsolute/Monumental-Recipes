@@ -18,5 +18,11 @@
   },
   "result": {
     "item": "rftoolscontrol:ram_chip"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "rftoolscontrol"
+    }
+  ]
 }

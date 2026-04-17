@@ -20,5 +20,11 @@
   "result": {
     "item": "undead_revamp2:sleepingsmokebomb",
     "count": 8
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

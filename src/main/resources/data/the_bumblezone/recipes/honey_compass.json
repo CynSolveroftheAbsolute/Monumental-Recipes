@@ -4,12 +4,18 @@
     "item": "minecraft:compass"
   },
   "addition": {
-      "tag": "the_bumblezone:buckets/honey"
+    "tag": "the_bumblezone:buckets/honey"
   },
   "result": {
     "item": "the_bumblezone:honey_compass"
   },
   "template": {
-      "item": "the_bumblezone:honey_crystal_shards"
-  }
+    "item": "the_bumblezone:honey_crystal_shards"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "the_bumblezone"
+    }
+  ]
 }

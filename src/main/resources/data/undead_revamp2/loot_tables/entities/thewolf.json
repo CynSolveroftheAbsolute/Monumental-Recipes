@@ -68,5 +68,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thewolf"
+  "random_sequence": "undead_revamp2:entities/thewolf",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

@@ -54,5 +54,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/theskeeper"
+  "random_sequence": "undead_revamp2:entities/theskeeper",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

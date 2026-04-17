@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "charginggadgets:charging_station"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "charginggadgets"
+    }
+  ]
 }

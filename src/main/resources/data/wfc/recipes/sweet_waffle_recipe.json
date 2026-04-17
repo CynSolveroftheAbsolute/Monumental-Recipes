@@ -22,10 +22,15 @@
     {
       "item": "croptopia:flour"
     }
-
   ],
   "result": {
     "item": "wfc:sweet_waffle",
     "count": 4
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wfc"
+    }
+  ]
 }

@@ -31,5 +31,11 @@
   "result": {
     "item": "croptopia:trifle",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

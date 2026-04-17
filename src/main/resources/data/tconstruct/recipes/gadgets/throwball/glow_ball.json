@@ -16,5 +16,11 @@
   "result": {
     "count": 8,
     "item": "tconstruct:glow_ball"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
 }

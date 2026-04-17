@@ -130,5 +130,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/deadclogger"
+  "random_sequence": "undead_revamp2:entities/deadclogger",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

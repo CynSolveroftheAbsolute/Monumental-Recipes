@@ -19,5 +19,11 @@
   "result": {
     "item": "mekanism:diversion_transporter",
     "count": 2
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

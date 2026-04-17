@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "reliquary:witherless_rose"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
 }

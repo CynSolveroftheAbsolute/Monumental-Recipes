@@ -106,5 +106,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/theheavy"
+  "random_sequence": "undead_revamp2:entities/theheavy",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

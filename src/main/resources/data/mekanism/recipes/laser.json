@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "mekanism:laser"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mekanism"
+    }
+  ]
 }

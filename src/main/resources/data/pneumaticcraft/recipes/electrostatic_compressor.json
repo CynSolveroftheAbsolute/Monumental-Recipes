@@ -23,5 +23,11 @@
   "result": {
     "item": "pneumaticcraft:electrostatic_compressor"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
 }

@@ -21,5 +21,11 @@
   "result": {
     "item": "xnet:advanced_connector_red",
     "count": 2
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xnet"
+    }
+  ]
 }

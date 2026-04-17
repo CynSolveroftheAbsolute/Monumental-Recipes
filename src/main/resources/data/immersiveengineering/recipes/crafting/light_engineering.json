@@ -22,5 +22,11 @@
   "result": {
     "count": 1,
     "item": "immersiveengineering:light_engineering"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
 }

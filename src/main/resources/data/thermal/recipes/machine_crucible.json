@@ -31,5 +31,11 @@
   "result": {
     "count": 1,
     "item": "thermal:machine_crucible"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+  ]
 }

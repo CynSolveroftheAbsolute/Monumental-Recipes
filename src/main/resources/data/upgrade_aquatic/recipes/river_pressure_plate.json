@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "upgrade_aquatic:river_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ]
 }

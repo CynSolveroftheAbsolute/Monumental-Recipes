@@ -13,5 +13,11 @@
     {
       "item": "forbidden_arcanus:obsidian_ingot"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "forbidden_arcanus"
+    }
   ]
 }

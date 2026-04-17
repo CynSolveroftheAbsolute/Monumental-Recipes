@@ -23,5 +23,11 @@
   "category": "meals",
   "result": {
     "item": "farmersdelight:pumpkin_soup"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

@@ -20,5 +20,11 @@
   "category": "meals",
   "result": {
     "item": "minecraft:beetroot_soup"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmerscroptopia"
+    }
+  ]
 }

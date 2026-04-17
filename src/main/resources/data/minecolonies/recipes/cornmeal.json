@@ -18,5 +18,11 @@
   "result": {
     "count": 3,
     "item": "minecolonies:cornmeal"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "minecolonies"
+    }
+  ]
 }

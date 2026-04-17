@@ -19,5 +19,11 @@
   "result": {
     "item": "pipez:ultimate_upgrade",
     "count": 1
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pipez"
+    }
+  ]
 }

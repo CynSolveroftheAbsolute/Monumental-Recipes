@@ -16,5 +16,11 @@
     {
       "item": "ae2:quartz_glass"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
   ]
 }

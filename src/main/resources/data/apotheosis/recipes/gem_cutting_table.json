@@ -1,9 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "conditions": [{
-	"type": "apotheosis:module",
-    "module": "adventure"
-  }],
+  "conditions": [
+    {
+      "type": "apotheosis:module",
+      "module": "adventure"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
   "group": "what",
   "pattern": [
     "TST",
@@ -14,13 +20,13 @@
     "T": {
       "item": "minecraft:smooth_stone"
     },
-	"S": {
+    "S": {
       "item": "thermal:saw_blade"
     },
-	"P": {
+    "P": {
       "tag": "planks"
     },
-	"G": {
+    "G": {
       "item": "apotheosis:gem_dust"
     }
   },

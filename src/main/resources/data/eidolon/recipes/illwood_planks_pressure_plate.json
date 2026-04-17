@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "eidolon:illwood_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "eidolon"
+    }
+  ]
 }

@@ -115,5 +115,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/theposessive"
+  "random_sequence": "undead_revamp2:entities/theposessive",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

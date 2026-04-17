@@ -1,28 +1,34 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "SIS",
-        "FST",
-        "WWW"
-    ],
-    "key": {
-        "S": {
-            "item": "compressium:stone_2"
-        },
-        "W": {
-            "tag": "minecraft:logs"
-        },
-        "I": {
-            "item": "naturesaura:infused_iron"
-        },
-        "F": {
-            "item": "naturesaura:token_fear"
-        },
-        "T": {
-            "item": "naturesaura:token_sorrow"
-        }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SIS",
+    "FST",
+    "WWW"
+  ],
+  "key": {
+    "S": {
+      "item": "compressium:stone_2"
     },
-    "result": {
-        "item": "naturesaura:offering_table"
+    "W": {
+      "tag": "minecraft:logs"
+    },
+    "I": {
+      "item": "naturesaura:infused_iron"
+    },
+    "F": {
+      "item": "naturesaura:token_fear"
+    },
+    "T": {
+      "item": "naturesaura:token_sorrow"
     }
+  },
+  "result": {
+    "item": "naturesaura:offering_table"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "naturesaura"
+    }
+  ]
 }

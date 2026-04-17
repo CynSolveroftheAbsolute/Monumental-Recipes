@@ -18,5 +18,11 @@
   ],
   "result": {
     "item": "sophisticatedbackpacks:upgrade_base"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sophisticatedbackpacks"
+    }
+  ]
 }

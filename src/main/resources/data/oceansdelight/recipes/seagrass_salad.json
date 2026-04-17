@@ -10,5 +10,11 @@
   ],
   "result": {
     "item": "oceansdelight:seagrass_salad"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "oceansdelight"
+    }
+  ]
 }

@@ -204,5 +204,11 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "twilightforest:chests/darktower_cache"
+  "random_sequence": "twilightforest:chests/darktower_cache",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
 }

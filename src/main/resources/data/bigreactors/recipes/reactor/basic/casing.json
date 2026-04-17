@@ -19,5 +19,11 @@
   "result": {
     "item": "bigreactors:basic_reactorcasing",
     "count": 2
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bigreactors"
+    }
+  ]
 }

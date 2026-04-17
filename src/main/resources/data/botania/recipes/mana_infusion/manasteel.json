@@ -11,5 +11,11 @@
   "output": {
     "count": 2,
     "item": "botania:manasteel_ingot"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+  ]
 }

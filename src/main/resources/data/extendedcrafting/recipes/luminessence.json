@@ -29,8 +29,14 @@
   ],
   "results": [
     {
-    "item": "extendedcrafting:luminessence",
-    "count": 4
+      "item": "extendedcrafting:luminessence",
+      "count": 4
+    }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
     }
   ]
 }

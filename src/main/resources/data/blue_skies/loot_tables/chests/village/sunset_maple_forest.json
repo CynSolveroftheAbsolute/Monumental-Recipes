@@ -99,5 +99,11 @@
       }
     }
   ],
-  "random_sequence": "blue_skies:chests/village/sunset_maple_forest"
+  "random_sequence": "blue_skies:chests/village/sunset_maple_forest",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ]
 }

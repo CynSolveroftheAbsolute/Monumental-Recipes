@@ -202,5 +202,11 @@
       ],
       "rolls": 1.0
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "artifacts"
+    }
   ]
 }

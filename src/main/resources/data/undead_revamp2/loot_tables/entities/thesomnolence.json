@@ -35,5 +35,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thesomnolence"
+  "random_sequence": "undead_revamp2:entities/thesomnolence",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

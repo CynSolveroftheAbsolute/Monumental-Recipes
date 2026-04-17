@@ -15,5 +15,11 @@
   ],
   "result": {
     "item": "eidolon:polished_pressure_plate"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "eidolon"
+    }
+  ]
 }

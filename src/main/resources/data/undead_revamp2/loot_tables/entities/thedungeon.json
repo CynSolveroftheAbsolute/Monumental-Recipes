@@ -106,5 +106,11 @@
       ]
     }
   ],
-  "random_sequence": "undead_revamp2:entities/thedungeon"
+  "random_sequence": "undead_revamp2:entities/thedungeon",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undead_revamp2"
+    }
+  ]
 }

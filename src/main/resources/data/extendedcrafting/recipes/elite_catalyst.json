@@ -25,5 +25,11 @@
     {
       "item": "extendedcrafting:elite_catalyst"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
   ]
 }

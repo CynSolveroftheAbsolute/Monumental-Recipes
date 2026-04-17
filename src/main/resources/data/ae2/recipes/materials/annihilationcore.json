@@ -16,5 +16,11 @@
     {
       "item": "ae2:annihilation_core"
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
   ]
 }

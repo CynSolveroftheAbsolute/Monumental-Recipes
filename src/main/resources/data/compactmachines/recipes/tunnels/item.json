@@ -22,5 +22,11 @@
         "id": "compactmachines:item"
       }
     }
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "compactmachines"
+    }
+  ]
 }

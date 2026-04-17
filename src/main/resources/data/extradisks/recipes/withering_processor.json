@@ -14,5 +14,11 @@
   "mode": "inscribe",
   "result": {
     "item": "extradisks:withering_processor"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extradisks"
+    }
+  ]
 }

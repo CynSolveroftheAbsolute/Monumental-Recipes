@@ -16,5 +16,11 @@
     "count": 2,
     "item": "croptopia:sunny_side_eggs"
   },
-  "show_notification": true
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "croptopia"
+    }
+  ]
 }

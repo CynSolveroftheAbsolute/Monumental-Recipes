@@ -14,5 +14,11 @@
       "item": "refinedstorage:destruction_core",
       "count": 1
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    }
   ]
 }

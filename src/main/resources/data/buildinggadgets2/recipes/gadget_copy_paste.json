@@ -24,5 +24,11 @@
   ],
   "result": {
     "item": "buildinggadgets2:gadget_copy_paste"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "buildinggadgets2"
+    }
+  ]
 }

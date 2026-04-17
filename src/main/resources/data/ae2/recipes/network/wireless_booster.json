@@ -20,5 +20,11 @@
   ],
   "result": {
     "item": "ae2:wireless_booster"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

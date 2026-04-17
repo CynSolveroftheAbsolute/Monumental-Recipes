@@ -19,5 +19,11 @@
   "result": {
     "item": "create:andesite_casing",
     "count": 4
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
 }

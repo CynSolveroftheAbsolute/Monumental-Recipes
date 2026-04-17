@@ -17,5 +17,11 @@
   ],
   "result": {
     "item": "ae2:import_bus"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }

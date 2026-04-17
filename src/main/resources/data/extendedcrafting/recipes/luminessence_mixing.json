@@ -20,5 +20,11 @@
       "item": "extendedcrafting:luminessence",
       "count": 1
     }
+  ],
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
   ]
 }

@@ -21,5 +21,11 @@
   ],
   "result": {
     "item": "ae2:crafting_unit"
-  }
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ae2"
+    }
+  ]
 }
