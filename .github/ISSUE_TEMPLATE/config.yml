@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discord Support
+    url: https://discord.gg/YOUR_DISCORD_INVITE
+    about: For general modpack questions, gameplay help, or casual discussion, please use our Discord server instead of opening an issue.

@@ -1,0 +1,74 @@
+name: Feature / Recipe Request
+description: Request a new feature or recipe for Monumental Recipes
+title: "[Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a new recipe or feature? Let us know!
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request Type
+      description: What kind of request is this?
+      options:
+        - New recipe
+        - Recipe modification
+        - New feature
+        - Compatibility with another mod
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Request Description
+      description: Describe what you'd like to see added or changed
+      placeholder: "I'd like a recipe that lets you craft X using Y and Z..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why?
+      description: Why would this be helpful? What problem does it solve or what does it improve?
+      placeholder: "This would make it easier to progress past X without having to rely on..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: versions
+    attributes:
+      label: Target Versions
+      description: Which versions should this apply to?
+      options:
+        - label: "1.18.2 (Forge)"
+        - label: "1.19.2 (Forge)"
+        - label: "1.20.1 (Forge)"
+        - label: "1.21.1 (NeoForge)"
+        - label: All versions
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context, screenshots, or references here
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      description: Please confirm the following before submitting
+      options:
+        - label: I have searched existing requests for duplicates
+          required: true
+        - label: This fits the scope of Monumental Recipes (recipe/progression tweaks for the Monumental Experience modpack)
+          required: true

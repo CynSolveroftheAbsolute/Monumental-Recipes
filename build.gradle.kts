@@ -56,6 +56,8 @@ publishMods {
         accessToken = curseforgeToken
         clientRequired = true
         serverRequired = true
+        minecraftVersions.addAll(mcTargets)
+        modLoaders.add(project.property("loader").toString())
     }
 }
 
