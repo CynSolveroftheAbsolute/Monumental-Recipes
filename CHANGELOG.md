@@ -3,3 +3,9 @@
 - Fixed missing blueprint recipes
 - Added Issue tracker to GitHub
 - Fixed data using monumental_recipes tag name instead of monumental_recipes tag name
+
+## Version 1.0.4
+- Fixed data using monumental_recipes tag name instead of monumental_recipes tag name
+- Fixed broken Quadrocopter blueprint recipe
+- Excluded 1.20.1 loot tables from 1.21.1 Neoforge
+- Added Neoforge recipes pt 1
