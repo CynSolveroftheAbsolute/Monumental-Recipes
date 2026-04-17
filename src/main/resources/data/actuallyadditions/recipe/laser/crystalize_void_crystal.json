@@ -5,7 +5,7 @@
         "item": "ironcoals:iron_coal"
     },
     "result": {
-        "item": "actuallyadditions:void_crystal"
+        "id": "actuallyadditions:void_crystal"
     },
     "conditions": [{
             "type": "neoforge:mod_loaded",

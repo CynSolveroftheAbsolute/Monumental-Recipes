@@ -5,7 +5,7 @@
         "item": "compressedcreativity:brass_gilded_lapis_lazuli"
     },
     "result": {
-        "item": "actuallyadditions:palis_crystal"
+        "id": "actuallyadditions:palis_crystal"
     },
     "conditions": [{
             "type": "neoforge:mod_loaded",
