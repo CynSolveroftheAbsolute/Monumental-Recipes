@@ -18,3 +18,6 @@
 
 ## Version 1.0.7
 - Fixed Missing Mystical Farmland custom recipes
+- 
+## Version 1.0.8
+- Fixed missing disabled create compat recipes
