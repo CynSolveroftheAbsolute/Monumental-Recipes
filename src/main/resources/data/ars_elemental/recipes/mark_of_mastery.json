@@ -7,7 +7,7 @@
   },
   "pedestalItems": [
     {
-      "item": "ars_nouveau:earth_essence"
+      "item": "mysticalagriculture:earth_essence"
     },
     {
       "item": "mysticalagriculture:fire_essence"
@@ -16,7 +16,7 @@
       "item": "mysticalagriculture:water_essence"
     },
     {
-      "item": "ars_nouveau:air_essence"
+      "item": "mysticalagriculture:air_essence"
     },
     {
       "item": "ars_nouveau:abjuration_essence"
