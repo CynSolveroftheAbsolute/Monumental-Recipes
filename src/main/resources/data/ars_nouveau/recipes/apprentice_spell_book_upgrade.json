@@ -1,0 +1,54 @@
+{
+  "type": "ars_nouveau:book_upgrade",
+  "pattern":
+  [
+    "   ",
+    " y ",
+    "   "
+  ],
+  "key": {
+    "y": {
+      "item": "ars_nouveau:spell_book"
+    }
+  },
+  "ingredients": [
+    {
+      "item": "ars_nouveau:novice_spell_book"
+    },
+    {
+      "tag": "forge:obsidian"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "tag": "forge:gems/diamond"
+    },
+    {
+      "item": "forge:storage_blocks/quartz"
+    },
+    {
+      "item": "forge:storage_blocks/quartz"
+    },
+    {
+      "tag": "forge:rods/blaze_rod"
+    },
+    {
+      "tag": "forge:rods/blaze_rod"
+    }
+  ],
+  "result":
+  {
+    "item": "ars_nouveau:apprentice_spell_book"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

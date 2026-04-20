@@ -1,0 +1,25 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:lantern"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:torches"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_light"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:blank_parchment"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:gems/source"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_binding"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

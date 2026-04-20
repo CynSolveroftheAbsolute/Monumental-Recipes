@@ -1,0 +1,33 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:gems/source"
+  },
+  "output": "mysticalagriculture:earth_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:seeds"
+      }
+    },
+    {
+      "item": {
+        "tag": "minecraft:dirt"
+      }
+    }
+  ],
+  "source": 2000
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

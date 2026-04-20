@@ -1,0 +1,46 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_nouveau:wand"
+  },
+  "pedestalItems": [
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:gems/source"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    },
+    {
+      "item": "ars_nouveau:manipulation_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "forge:logs/archwood"
+    }
+  ],
+  "sourceCost": 0
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

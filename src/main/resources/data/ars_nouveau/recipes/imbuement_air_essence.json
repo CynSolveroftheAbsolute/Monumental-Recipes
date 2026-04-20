@@ -1,0 +1,33 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:gems/source"
+  },
+  "output": "mysticalagriculture:air_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "tag": "forge:feathers"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:wilden_wing"
+      }
+    },
+    {
+      "item": {
+        "tag": "minecraft:arrows"
+      }
+    }
+  ],
+  "source": 2000
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "ars_nouveau:green_archwood_log"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "mysticalagriculture:earth_essence"
+    },
+    {
+      "item": "mysticalagriculture:earth_essence"
+    }
+  ],
+  "result": {
+    "item": "ars_nouveau:ritual_overgrowth"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

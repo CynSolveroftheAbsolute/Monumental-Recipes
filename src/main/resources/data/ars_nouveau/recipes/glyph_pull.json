@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 27,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "forge:tools/fishing_rods"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_pull"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

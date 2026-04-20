@@ -1,0 +1,35 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:clocks"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:clocks"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:clocks"
+      }
+    }
+  ],
+  "output": "ars_nouveau:rewind"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

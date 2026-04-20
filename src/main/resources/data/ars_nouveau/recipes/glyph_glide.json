@@ -1,0 +1,40 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:air_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:elytra"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_glide"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

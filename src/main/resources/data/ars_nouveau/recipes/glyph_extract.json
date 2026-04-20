@@ -1,0 +1,20 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "tag": "forge:gems/emerald"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_extract"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

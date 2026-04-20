@@ -1,0 +1,26 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "tag": "forge:gems/source"
+  },
+  "output": "ars_nouveau:manipulation_essence",
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "minecraft:stone_button"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:dusts/redstone"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:clocks"
+      }
+    }
+  ],
+  "source": 2000
+}

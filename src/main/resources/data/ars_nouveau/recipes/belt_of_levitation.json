@@ -1,0 +1,46 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "item": "ars_nouveau:belt_of_levitation"
+  },
+  "pedestalItems": [
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "tag": "forge:feathers"
+    },
+    {
+      "item": "mysticalagriculture:air_essence"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_nouveau:mundane_belt"
+    }
+  ],
+  "sourceCost": 0
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 55,
+  "inputItems": [
+    {
+      "item": {
+        "item": "mysticalagriculture:earth_essence"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:seeds"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:seeds"
+      }
+    },
+    {
+      "item": {
+        "tag": "forge:seeds"
+      }
+    }
+  ],
+  "output": "ars_nouveau:glyph_grow"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ]
+}
