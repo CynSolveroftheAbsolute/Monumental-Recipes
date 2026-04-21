@@ -9,7 +9,7 @@
     },
     {
       "item": {
-        "item": "ars_nouveau:earth_essence"
+        "item": "mysticalagriculture:earth_essence"
       }
     },
     {
@@ -34,4 +34,11 @@
     }
   ],
   "sourceCost" : 2000
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ]
 }
