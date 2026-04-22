@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RDR",
+    "CFC",
+    "RPR"
+  ],
+  "key": {
+    "R": {
+      "tag": "c:dusts/redstone"
+    },
+    "D": {
+      "item": "refinedstorage:detector"
+    },
+    "C": {
+      "item": "refinedstorage:crafting_upgrade"
+    },
+    "F": {
+      "item": "refinedstorage:machine_casing"
+    },
+    "P": {
+      "item": "refinedstorage:advanced_processor"
+    }
+  },
+  "result": {
+    "id": "rsrequestify:requester"
+  },
+  "conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rsrequestify"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "refinedstorage"
+    }
+  ]
+}
