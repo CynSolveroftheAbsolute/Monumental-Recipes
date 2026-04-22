@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "tag": "c:eggs"
+    },
+    "M": {
+      "item": "reliquary:molten_core"
+    },
+    "S": {
+      "item": "mysticalagriculture:glowstone_essence"
+    },
+    "W": {
+      "item": "minecraft:crimson_roots"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "SES",
+    "WWW"
+  ],
+  "result": {
+    "id": "tconstruct:magma_cake"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

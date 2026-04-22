@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tconstruct:fancy_item_frame",
+  "key": {
+    "M": {
+      "item": "tconstruct:obsidian_pane"
+    },
+    "e": {
+      "item": "mysticalagriculture:netherite_essence"
+    }
+  },
+  "pattern": [
+    " e ",
+    "eMe",
+    " e "
+  ],
+  "result": {
+    "id": "tconstruct:netherite_item_frame"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

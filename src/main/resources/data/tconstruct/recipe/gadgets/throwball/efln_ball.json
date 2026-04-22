@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:gunpowders"
+    },
+    "X": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "mysticalagriculture:sulfur_essence"
+    }
+  },
+  "pattern": [
+    "S#S",
+    "#X#",
+    "S#S"
+  ],
+  "result": {
+    "id": "tconstruct:efln_ball"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

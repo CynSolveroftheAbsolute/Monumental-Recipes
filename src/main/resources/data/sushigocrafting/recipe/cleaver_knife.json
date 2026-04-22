@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "I": {
+            "tag": "c:ingots/iron"
+        },
+        "S": {
+            "tag": "c:rods/wooden"
+        }
+    },
+    "pattern": [" II", "II ", "S  "],
+    "result": {
+        "id": "sushigocrafting:cleaver_knife"
+    },
+    "show_notification": true
+}
+}], "neoforge:conditions": [{
+    "type": "neoforge:mod_loaded",
+    "modid": "sushigocrafting"
+}]
+}

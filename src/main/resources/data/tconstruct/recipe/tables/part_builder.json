@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    "pp",
+    "ww"
+  ],
+  "key": {
+    "p": {
+      "item": "tconstruct:pattern"
+    },
+    "w": {
+      "tag": "tconstruct:planklike"
+    }
+  },
+  "result": {
+    "id": "tconstruct:part_builder"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ]
+}

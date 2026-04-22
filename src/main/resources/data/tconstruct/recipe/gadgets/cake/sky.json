@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "E": {
+      "tag": "c:eggs"
+    },
+    "M": {
+      "item": "tconstruct:sky_slime_bucket"
+    },
+    "S": {
+      "item": "supplementaries:sugar_cube"
+    },
+    "W": {
+      "item": "tconstruct:sky_slime_tall_grass"
+    }
+  },
+  "pattern": [
+    "MMM",
+    "SES",
+    "WWW"
+  ],
+  "result": {
+    "id": "tconstruct:sky_cake"
+  },
+  "neoforge:conditions": [
+    {
+      "neoforge": "forge:mod_loaded",
+      "modid": "tconstruct"
+    },
+    {
+      "neoforge": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}
