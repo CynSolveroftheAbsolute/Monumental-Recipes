@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "waystones:warp_stone"
+    },
+    {
+      "tag": "c:sandstone"
+    },
+    {
+      "tag": "c:ingots/obsidian"
+    }
+  ],
+  "results": [
+    {
+      "id": "waystones:sandy_waystone"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "waystones"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}
