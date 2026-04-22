@@ -26,6 +26,10 @@
     {
       "type": "forge:mod_loaded",
       "modid": "sophisticatedstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "storagedrawers"
     }
   ]
 }
