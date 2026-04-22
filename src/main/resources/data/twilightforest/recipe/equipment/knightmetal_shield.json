@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "tag": "c:ingots/knightmetal"
+  },
+  "addition": {
+    "tag": "twilightforest:towerwood"
+  },
+  "result": {
+    "id": "twilightforest:knightmetal_shield"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

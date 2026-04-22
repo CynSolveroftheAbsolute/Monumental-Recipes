@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "tag": "c:ingots/knightmetal"
+  },
+  "result": {
+    "id": "twilightforest:knightmetal_chestplate"
+  },
+  "template": {
+    "tag": "c:plates/netherite"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightforest"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "twilightforest:mazestone_brick"
+    },
+    "F": {
+      "item": "twilightforest:fiery_ingot"
+    },
+    "S": {
+      "item": "twilightforest:ironwood_shovel"
+    },
+    "W": {
+      "tag": "c:buckets/water"
+    }
+  },
+  "pattern": [
+    "BSB",
+    "FWF",
+    "FFF"
+  ],
+  "result": {
+    "id": "twilightdelight:fiery_cooking_pot"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "twilightdelight"
+    }
+  ]
+}
