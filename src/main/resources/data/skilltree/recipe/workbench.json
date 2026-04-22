@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:smithing_table"
+    },
+    "C": {
+      "tag": "c:plates/copper"
+    },
+    "G": {
+      "tag": "c:plates/gold"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "III",
+    "G#G",
+    "CCC"
+  ],
+  "result": {
+    "id": "skilltree:workbench"
+  },
+  "show_notification": true,
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "skilltree"
+    }
+  ]
+}

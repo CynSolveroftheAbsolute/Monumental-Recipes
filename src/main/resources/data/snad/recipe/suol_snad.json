@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "chipped:soul_sand"
+    },
+    {
+      "tag": "chipped:soul_sand"
+    }
+  ],
+  "result": {
+    "id": "snad:suol_snad"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "snad"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "chipped"
+    }
+  ]
+}

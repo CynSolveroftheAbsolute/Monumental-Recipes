@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "G": {
+            "tag": "c:strings"
+        },
+        "E": {
+            "item": "kubejs:compressed_iron_plate"
+        },
+        "W": {
+            "tag": "c:leathers"
+        }
+    },
+    "pattern": ["GEG", "EWE", "GEG"],
+    "result": {
+        "id": "sophisticatedbackpacks:upgrade_base"
+    }
+}, "conditions": [{
+    "type": "forge:mod_loaded",
+    "modid": "sophisticatedbackpacks"
+}, {
+    "type": "forge:item_exists",
+    "item": "kubejs:compressed_iron_plate"
+}]
+}
