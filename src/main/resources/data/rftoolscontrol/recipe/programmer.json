@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "q": {
+      "item": "create:polished_rose_quartz"
+    },
+    "p": {
+      "tag": "c:plastics"
+    },
+    "r": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "F": {
+      "item": "immersiveengineering:heavy_engineering"
+    },
+    "s": {
+      "item": "immersiveengineering:circuit_board"
+    }
+  },
+  "pattern": [
+    "rqr",
+    "pFp",
+    "rsr"
+  ],
+  "result": {
+    "id": "rftoolscontrol:programmer"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolscontrol"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

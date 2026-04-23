@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "M": {
+      "item": "rftoolscontrol:card_base"
+    },
+    "C": {
+      "item": "immersiveengineering:craftingtable"
+    },
+    "r": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "F": {
+      "item": "immersiveengineering:heavy_engineering"
+    }
+  },
+  "pattern": [
+    "rMr",
+    "CFC",
+    "rMr"
+  ],
+  "result": {
+    "id": "rftoolscontrol:craftingstation"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolscontrol"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}

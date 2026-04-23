@@ -1,0 +1,43 @@
+{
+  "type": "extendedcrafting:shaped_ender_crafter",
+  "pattern": [
+    "QWQ",
+    "TST",
+    "QWQ"
+  ],
+  "key": {
+    "W": {
+      "tag": "c:gems/mana_diamond"
+    },
+    "Q": {
+      "item": "immersiveengineering:wirecoil_redstone"
+    },
+    "S": {
+      "item": "rftoolscontrol:cpu_core_500"
+    },
+    "T": {
+      "tag": "c:gems/emerald"
+    }
+  },
+  "result": {
+    "id": "rftoolscontrol:cpu_core_1000"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolscontrol"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "botania"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedcrafting"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "type": "immersiveengineering:blueprint",
+  "category": "components",
+  "inputs": [
+    {
+      "base_ingredient": {
+        "item": "immersiveengineering:wirecoil_redstone"
+      },
+      "count": 1
+    },
+    {
+      "tag": "c:dusts/ender_pearl"
+    },
+    {
+      "tag": "c:gems/emerald"
+    },
+    {
+      "item": "rftoolscontrol:network_card"
+    }
+  ],
+  "result": {
+    "id": "rftoolscontrol:advanced_network_card"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "rftoolscontrol"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}
