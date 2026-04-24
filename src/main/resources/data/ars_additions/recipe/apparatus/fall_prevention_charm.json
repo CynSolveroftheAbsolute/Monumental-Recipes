@@ -1,0 +1,28 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": false,
+  "output": {
+    "id": "ars_additions:fall_prevention_charm"
+  },
+  "pedestalItems": [
+    {
+      "tag": "c:feathers"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "sourceCost": 0
+},
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ]
+}
