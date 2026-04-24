@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "G": {
+      "tag": "c:ingots/gold"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "N": {
+      "item": "reliquary:nebulous_heart"
+    }
+  },
+  "pattern": [
+    "NG",
+    "IN"
+  ],
+  "result": {
+    "id": "reliquary:magicbane"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "c:wools/black"
+    },
+    "C": {
+      "item": "reliquary:crimson_cloth"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "BCB",
+    "BCB"
+  ],
+  "result": {
+    "id": "reliquary:twilight_cloak"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "O": {
+      "item": "handcrafted:witch_trophy"
+    },
+    "D": {
+      "item": "easy_mob_farm:witch_bottle"
+    }
+  },
+  "pattern": [
+    "O O",
+    " D ",
+    "O O"
+  ],
+  "result": {
+    "id": "reliquary:witch_hat"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "handcrafted"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "easy_mob_farm"
+    }
+  ]
+}

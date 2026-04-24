@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "reliquary:nebulous_heart"
+    },
+    {
+      "item": "reliquary:slime_pearl"
+    },
+    {
+      "item": "mysticalagriculture:lapis_lazuli_essence"
+    }
+  ],
+  "result": {
+    "id": "reliquary:void_tear"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ]
+}

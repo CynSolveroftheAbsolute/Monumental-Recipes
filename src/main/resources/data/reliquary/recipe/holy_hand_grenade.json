@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "reliquary:glowing_water"
+    },
+    {
+      "tag": "c:nuggets/gold"
+    },
+    {
+      "item": "thermal:phyto_tnt"
+    },
+    {
+      "item": "reliquary:catalyzing_gland"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "reliquary:holy_hand_grenade"
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ]
+}

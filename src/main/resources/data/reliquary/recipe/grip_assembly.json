@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "reliquary:handgun_enabled"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "reliquary:magazines/empty_magazine"
+    },
+    "I": {
+      "tag": "c:ingots/compressed_iron"
+    },
+    "M": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "pattern": [
+    "III",
+    "IMI",
+    "ICI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "reliquary:grip_assembly"
+  }
+}

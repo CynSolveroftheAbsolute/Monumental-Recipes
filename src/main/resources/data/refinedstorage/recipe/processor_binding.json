@@ -1,0 +1,52 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "fluid": {
+    "id": "minecraft:lava",
+    "amount": 1500
+  },
+  "ingredients": [
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "tag": "monumental_recipes:cloth"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "tag": "monumental_recipes:cloth"
+    },
+    {
+      "item": "immersiveengineering:hemp_fiber"
+    },
+    {
+      "tag": "monumental_recipes:cloth"
+    },
+    {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    {
+      "tag": "monumental_recipes:cloth"
+    }
+  ],
+  "output": {
+    "id": "refinedstorage:processor_binding"
+  },
+  "heatRequirement": "heated"
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "refinedstorage"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "immersiveengineering"
+    }
+  ]
+}
