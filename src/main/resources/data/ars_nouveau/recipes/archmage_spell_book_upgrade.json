@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:book_upgrade",
   "ingredients": [
     {
@@ -29,14 +35,5 @@
       "item": "minecraft:totem_of_undying"
     }
   ],
-  "result": {
-    "item": "ars_nouveau:archmage_spell_book"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "ars_nouveau:archmage_spell_book"}
 }

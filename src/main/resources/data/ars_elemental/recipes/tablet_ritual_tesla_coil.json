@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -21,14 +27,5 @@
       "tag": "forge:storage_blocks/source"
     }
   ],
-  "result": {
-    "item": "ars_elemental:ritual_tesla_coil"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
+  "result": {"item": "ars_elemental:ritual_tesla_coil"}
 }

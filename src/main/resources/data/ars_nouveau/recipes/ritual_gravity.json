@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -18,14 +24,5 @@
       "item": "minecraft:anvil"
     }
   ],
-  "result": {
-    "item": "ars_nouveau:ritual_gravity"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "ars_nouveau:ritual_gravity"}
 }

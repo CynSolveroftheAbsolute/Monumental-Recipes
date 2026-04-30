@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -9,14 +15,5 @@
       "item": "minecraft:bucket"
     }
   ],
-  "result": {
-    "item": "minecraft:water_bucket"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "minecraft:water_bucket"}
 }

@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:glyph",
   "count": 1,
   "exp": 27,
@@ -45,11 +51,4 @@
     }
   ],
   "output": "ars_nouveau:glyph_summon_wolves"
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

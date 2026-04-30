@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "ars_nouveau:glyph",
   "count": 1,
   "exp": 55,
@@ -35,11 +41,4 @@
     }
   ],
   "output": "ars_nouveau:glyph_flare"
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
 }

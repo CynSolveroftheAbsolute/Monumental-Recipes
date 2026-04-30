@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_instrumentum"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -15,14 +21,5 @@
       "tag": "forge:feathers"
     }
   ],
-  "result": {
-    "item": "ars_instrumentum:copy_paste_spell_scroll"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_instrumentum"
-    }
-  ]
+  "result": {"item": "ars_instrumentum:copy_paste_spell_scroll"}
 }

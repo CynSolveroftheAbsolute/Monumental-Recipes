@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "reliquary"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
@@ -37,15 +43,5 @@
     "NVB",
     "SN "
   ],
-  "result": {
-    "count": 1,
-    "id": "reliquary:ender_staff"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "reliquary"
-    }
-  ]
+  "result": {"item": "reliquary:ender_staff"}
 }

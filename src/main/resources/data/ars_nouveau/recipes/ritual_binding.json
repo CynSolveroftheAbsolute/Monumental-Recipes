@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -21,14 +27,5 @@
       "tag": "forge:gems/source"
     }
   ],
-  "result": {
-    "item": "ars_nouveau:ritual_binding"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "ars_nouveau:ritual_binding"}
 }

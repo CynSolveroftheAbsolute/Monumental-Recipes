@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
@@ -17,14 +23,5 @@
       "item": "minecraft:iron_sword"
     }
   ],
-  "result": {
-    "item": "ars_nouveau:novice_spell_book"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "ars_nouveau:novice_spell_book"}
 }

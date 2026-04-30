@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -12,14 +18,5 @@
       "item": "minecraft:snow_block"
     }
   ],
-  "result": {
-    "item": "minecraft:powder_snow_bucket"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "minecraft:powder_snow_bucket"}
 }
