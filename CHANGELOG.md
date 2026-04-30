@@ -35,3 +35,6 @@
 
 ## Version 1.0.12
 - Fixed broken recipe conditions in some recipes
+
+## Version 1.0.13
+- Merged Pull Request #3 by Cyn to fix More recipe conditions
