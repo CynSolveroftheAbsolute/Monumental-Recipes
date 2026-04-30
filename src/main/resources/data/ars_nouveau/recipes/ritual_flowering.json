@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
@@ -27,14 +33,5 @@
       "item": "mysticalagriculture:earth_essence"
     }
   ],
-  "result": {
-    "item": "ars_nouveau:ritual_flowering"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_nouveau"
-    }
-  ]
+  "result": {"item": "ars_nouveau:ritual_flowering"}
 }

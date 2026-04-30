@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_elemental"
+    }
+  ],
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "MDM",
@@ -16,14 +22,5 @@
       "tag": "forge:gems/diamond"
     }
   },
-  "result": {
-    "item": "ars_elemental:caster_bag"
-  }
-},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "ars_elemental"
-    }
-  ]
+  "result": {"item": "ars_elemental:caster_bag"}
 }
