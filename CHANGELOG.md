@@ -41,3 +41,6 @@
 
 ## Version 1.0.14
 - Merged Pull Request #4 by Cyn to fix More recipe issues
+
+## Version 1.0.15
+- Fixed Nature's Aura leaves compatibility with Separated Leaves mod
