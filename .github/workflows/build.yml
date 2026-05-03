@@ -40,7 +40,7 @@ jobs:
       - name: "🔎 Determine version"
         id: get-next-version
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: cycjimmy/semantic-release-action@v4
         with:
@@ -63,7 +63,7 @@ jobs:
       - name: "🏗️ Build, Test & Release"
         if: ${{ steps.get-next-version.outputs.new_release_published == 'true' }}
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DO_PUBLISH: steps.get-next-version.outputs.new_release_published
           MODRINTH_ID: ${{ vars.MODRINTH_ID }}
           MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
@@ -72,7 +72,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: cycjimmy/semantic-release-action@v4
         with:
-          dry_run: true
+          dry_run: false
           extra_plugins: |
             @semantic-release/changelog
             @semantic-release/exec
@@ -91,4 +91,3 @@ jobs:
           path: |
             build/libs/*.jar
             build/reports/**/*
-
