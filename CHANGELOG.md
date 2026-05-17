@@ -65,3 +65,6 @@
 ## Version 1.0.20
 - Misc Neoforge recipe fixes and improvements
 - Fixed broken 1.20.1 Inventory pets recipes
+
+## Version 1.0.21
+- Rebalanced some 1.20.1 recipes pt 1
