@@ -91,20 +91,6 @@
         },
         {
           "type": "item",
-          "name": "iceandfire:manuscript",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 6
-              }
-            }
-          ],
-          "weight": 30
-        },
-        {
-          "type": "item",
           "name": "mysticalagriculture:gold_essence",
           "functions": [
             {
