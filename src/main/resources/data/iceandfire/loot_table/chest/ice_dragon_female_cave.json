@@ -14,7 +14,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -24,12 +23,11 @@
         },
         {
           "type": "item",
-          "name": "iceandfire:sapphire_gem",
+          "name": "mysticalagriculture:sapphire_essence",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }
@@ -44,8 +42,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 10
+                "min": 1,
+                "max": 10
               }
             }
           ],
@@ -58,8 +56,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 10
+                "min": 1,
+                "max": 10
               }
             }
           ],
@@ -72,7 +70,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -87,7 +84,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -102,7 +98,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 6
               }
@@ -112,13 +107,13 @@
         },
         {
           "type": "item",
-          "name": "iceandfire:silver_ingot",
+          "name": "mysticalagriculture:silver_essence",
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 10
+                "min": 1,
+                "max": 10
               }
             }
           ],
@@ -131,8 +126,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 16
+                "min": 1,
+                "max": 16
               }
             }
           ],
@@ -145,8 +140,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 1
+                "min": 1,
+                "max": 1
               }
             }
           ],
@@ -159,7 +154,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 6
               }
@@ -174,8 +168,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 1
+                "min": 1,
+                "max": 1
               }
             }
           ],
@@ -188,8 +182,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 1
+                "min": 1,
+                "max": 1
               }
             }
           ],
@@ -202,8 +196,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 1
+                "min": 1,
+                "max": 1
               }
             }
           ],
@@ -216,8 +210,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 1
+                "min": 1,
+                "max": 1
               }
             }
           ],
@@ -230,8 +224,8 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:constant",
-                "value": 1
+                "min": 1,
+                "max": 1
               }
             }
           ],
@@ -244,7 +238,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 6
               }
@@ -259,7 +252,6 @@
             {
               "function": "set_count",
               "count": {
-                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 5
               }
@@ -268,12 +260,6 @@
           "weight": 1
         }
       ]
-    }
-  ],
-  "neoforge:conditions": [
-    {
-      "type": "neoforge:mod_loaded",
-      "modid": "iceandfire"
     }
   ]
 }
