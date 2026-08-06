@@ -99,3 +99,6 @@
 
 ## Version 1.0.31
 - Misc 1.20.1 adjustments and changes to some recipes
+
+## Version 1.0.32
+- Fixed broken 1.20.1 Brewery recipes
