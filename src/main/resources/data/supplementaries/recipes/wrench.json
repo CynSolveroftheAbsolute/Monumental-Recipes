@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "wrench"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "1 1",
+    " 1 ",
+    " 1 "
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "result": {
+    "item": "supplementaries:wrench",
+    "count": 1
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

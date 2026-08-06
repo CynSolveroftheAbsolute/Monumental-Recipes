@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "101",
+    "020",
+    "101"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:ingots/iron"
+    },
+    "0": {
+      "tag": "minecraft:planks"
+    },
+    "2": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "result": {
+    "item": "supplementaries:lock_block",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "lock_block"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

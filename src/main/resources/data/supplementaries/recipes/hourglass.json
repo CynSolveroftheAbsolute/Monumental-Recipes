@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "010",
+    " 0 ",
+    "010"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:glass_blocks"
+    },
+    "1": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "supplementaries:hourglass",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "hourglass"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

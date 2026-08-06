@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "000",
+    "010",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "tag": "forge:stone"
+    },
+    "1": {
+      "item": "minecraft:shroomlight"
+    }
+  },
+  "result": {
+    "item": "supplementaries:stone_lamp",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "stone_lamp"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

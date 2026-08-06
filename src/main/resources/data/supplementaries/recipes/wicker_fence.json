@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "101",
+    "101"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar_cane"
+    },
+    "1": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "supplementaries:wicker_fence",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "wicker_fence"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

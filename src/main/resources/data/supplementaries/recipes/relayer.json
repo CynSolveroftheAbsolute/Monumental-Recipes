@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    "##2",
+    "111"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:dusts/redstone"
+    },
+    "1": {
+      "tag": "forge:cobblestone"
+    },
+    "2": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "relayer"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ],
+  "result": {
+    "item": "supplementaries:relayer"
+  }
+}
