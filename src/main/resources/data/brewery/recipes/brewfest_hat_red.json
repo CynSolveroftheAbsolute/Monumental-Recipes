@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "brewery:patterned_wool"
+  },
+  "addition": {
+    "tag": "'chipped:red_wool"
+  },
+  "result": {
+    "item": "brewery:brewfest_hat_red"
+  },
+  "template": {
+    "tag": "forge:shears"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewery"
+    }
+  ]
+}

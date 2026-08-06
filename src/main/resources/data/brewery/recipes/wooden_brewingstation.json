@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "tag": "'forge:furnaces"
+    },
+    "C": {
+      "tag": "monumental_recipes:cauldrons"
+    },
+    "U": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "  U",
+    "BCC",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "brewery:wooden_brewingstation"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brewery"
+    }
+  ]
+}
