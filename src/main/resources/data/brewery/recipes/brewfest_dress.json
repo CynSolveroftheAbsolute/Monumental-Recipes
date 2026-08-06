@@ -4,7 +4,7 @@
     "tag": "chipped:red_wool"
   },
   "addition": {
-    "tag": "'chipped:black_wool"
+    "tag": "chipped:black_wool"
   },
   "result": {
     "item": "brewery:brewfest_dress"

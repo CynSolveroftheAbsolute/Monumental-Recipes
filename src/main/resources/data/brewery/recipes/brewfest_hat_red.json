@@ -4,7 +4,7 @@
     "item": "brewery:patterned_wool"
   },
   "addition": {
-    "tag": "'chipped:red_wool"
+    "tag": "chipped:red_wool"
   },
   "result": {
     "item": "brewery:brewfest_hat_red"
