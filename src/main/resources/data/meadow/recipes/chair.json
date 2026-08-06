@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "///",
+    "___",
+    "/ /"
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "_": {
+      "item": "meadow:pine_slab"
+    }
+  },
+  "result": {
+    "item": "meadow:chair",
+    "count": 1
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "meadow"
+    }
+  ]
+}
