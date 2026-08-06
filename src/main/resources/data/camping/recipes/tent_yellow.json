@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BAB",
+    "A A",
+    "B B"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:rods/wooden"
+    },
+    "B": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "camping:tent_yellow"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "camping"
+    }
+  ]
+}
