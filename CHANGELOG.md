@@ -102,3 +102,6 @@
 
 ## Version 1.0.32
 - Fixed broken 1.20.1 Brewery recipes
+
+## Version 1.0.33
+- Fixed broken 1.20.1 Brewery recipes pt 2

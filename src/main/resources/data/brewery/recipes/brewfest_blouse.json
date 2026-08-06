@@ -4,7 +4,7 @@
     "item": "brewery:patterned_wool"
   },
   "addition": {
-    "tag": "'chipped:white_wool"
+    "tag": "chipped:white_wool"
   },
   "result": {
     "item": "brewery:brewfest_blouse"
