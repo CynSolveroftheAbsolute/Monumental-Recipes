@@ -105,3 +105,7 @@
 
 ## Version 1.0.33
 - Fixed broken 1.20.1 Brewery recipes pt 2
+
+## Version 1.0.34
+- (1.20.1) Modified some pneumaticcraft recipes to use tags
+- Bumped mod version
