@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "monumental_recipes:hoppers"
+    },
+    {
+      "tag": "forge:ingots/compressed_iron"
+    }
+  ],
+  "result": {
+    "item": "pneumaticcraft:transfer_gadget"
+  }
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ]
+}
