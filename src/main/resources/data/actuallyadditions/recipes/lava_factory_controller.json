@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "actuallyadditions:advanced_coil"
+    },
+    "B": {
+      "tag": "forge:buckets/lava"
+    },
+    "C": {
+      "item": "actuallyadditions:iron_casing"
+    },
+    "E": {
+      "item": "actuallyadditions:empowered_enori_crystal_block"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "EAE",
+    "BBB"
+  ],
+  "result": {
+    "item": "actuallyadditions:lava_factory_controller"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}

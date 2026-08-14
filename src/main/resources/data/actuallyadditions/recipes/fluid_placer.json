@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:buckets/empty"
+    },
+    "P": {
+      "item": "actuallyadditions:placer"
+    }
+  },
+  "pattern": [
+    "BPB"
+  ],
+  "result": {
+    "item": "actuallyadditions:fluid_placer"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}

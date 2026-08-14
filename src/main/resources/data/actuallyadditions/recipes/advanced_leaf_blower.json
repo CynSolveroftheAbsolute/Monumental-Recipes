@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "actuallyadditions:advanced_coil"
+    },
+    "D": {
+      "item": "actuallyadditions:diamatine_crystal"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "P": {
+      "tag": "monumental_recipes:pistons"
+    }
+  },
+  "pattern": [
+    " F",
+    "DP",
+    "DC"
+  ],
+  "result": {
+    "item": "actuallyadditions:advanced_leaf_blower"
+  },
+  "show_notification": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}

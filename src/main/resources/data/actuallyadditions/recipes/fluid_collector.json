@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "tag": "forge:buckets/empty"
+    },
+    "F": {
+      "item": "actuallyadditions:breaker"
+    }
+  },
+  "pattern": [
+    "BFB"
+  ],
+  "result": {
+    "item": "actuallyadditions:fluid_collector"
+  },
+  "show_notification": true
+},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "actuallyadditions"
+    }
+  ]
+}
