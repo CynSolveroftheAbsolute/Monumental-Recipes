@@ -109,3 +109,7 @@
 ## Version 1.0.34
 - (1.20.1) Modified some pneumaticcraft recipes to use tags
 - Bumped mod version
+
+## Version 1.0.35
+- (1.20.1) Added Faktocraft support
+- Bumped mod version
