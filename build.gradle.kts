@@ -54,8 +54,8 @@ publishMods {
     curseforge {
         projectId = "863339"
         accessToken = curseforgeToken
-        clientRequired = true
-        serverRequired = true
+        client = true
+        server = true
         minecraftVersions.addAll(mcTargets)
         modLoaders.add(project.property("loader").toString())
     }
